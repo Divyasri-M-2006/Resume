@@ -15,7 +15,6 @@ spec:
       containers:
         - name: html-demo
           image: divyasri28/html-demo:latest
-          imagePullPolicy:Always
           ports:
             - containerPort: 80
 ---
